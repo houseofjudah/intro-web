@@ -1,0 +1,278 @@
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+section {
+    background-color: rgb(231, 245, 245);
+    padding: 100px 200px;
+    overflow: hidden;
+}
+
+ header {
+    color: azure;
+    background-color: black;
+    width: 100%;
+    padding: 15px 200px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+    }
+
+    header .navbar ul {
+        display: flex;
+    }
+
+    header .navbar ul li {
+        list-style: none;
+        padding: 10px;
+    }
+
+    header .navbar ul a {
+        text-decoration:none ;
+        color: azure; 
+    }
+/* Header Ended */
+
+/* main  */
+
+.main {
+    color: white;
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background: url(images/agric.jpg)no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+   
+.main .content {
+    max-width: 800px;
+}
+
+
+ .main .content h2 {
+        color: rgb(20, 23, 219);
+        font-size: 2em;
+        font-weight: 500;
+        
+        
+       
+  }
+
+.main .content h2 br {
+    font: size 2.8em; ;
+    font-weight: 600;
+
+}
+
+  
+
+.main .content .animated-text {
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 1px ;
+}
+
+
+.main .content .animated-text h3:nth-child(1) {
+    animation: move 10s infinite;
+}
+ 
+@keyframes move {
+    0% {
+        margin-top: 0;
+    }
+    25% {
+        margin-top: -70px;
+    }
+    50% {
+        margin-top: -140px;
+    }
+    75% {
+        margin-top: -70px;
+    }
+    100% {
+        margin-top: 0;
+    }
+} */
+ 
+    
+.main .content .btn {
+    color: #fff;
+    background: blue;
+    font-size: 1em ;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 30%;
+    margin-top: 30px;
+    transition: 2S ease;
+
+}
+
+.main .content .btn:hover {
+       color: #fff;
+       background-color: orange;
+       border-radius: 30px;
+       transition: 1s;
+}
+
+.main .content .media-icons {
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    margin-top: 50px;
+      
+}
+
+.main .content .media-icons .icon-linkedin {
+     color: rgb(69, 121, 167);
+     font-size: 25px;
+     margin-left: 25px;
+     
+}
+
+.main .content .media-icons .icon-instagram {
+    
+    color: rgb(235, 28, 28);
+    font-size: 25px ;
+    margin-left: 25px;
+    
+    
+}
+
+.main .content .media-icons .icon-twitter {
+     color: rgb(45, 10, 241);
+     font-size: 25px;
+     margin-left: 25px;
+}
+
+
+ .section-title {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight:800;
+    margin-bottom: 60px;
+    margin-top: 30px;
+ }
+
+ .section-title:before {
+      display: flex;
+      content:"";
+      position: relative;
+      top: 50px;
+      left: 50%;
+      width: 190px;
+      height: 4px;
+      background: #3a6cf4;
+      transform: translateX(-50px);
+ }
+
+ .section-title::after {
+    content: "";
+    position: relative;
+    top: 50px;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3a6cf4;
+    transform: translateX(150);
+
+
+ }
+
+ .about .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 20px;
+ }
+
+ .about .content .col-left {
+    position: relative;
+    width: 50%;
+
+ }
+
+ .about .content .col-right {
+    position: relative;
+    width: 45%;
+ }
+
+ .about .content .col-left .img-card .img {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+ }
+
+ .about .content .col-left .img-card .img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 80%;
+   object-fit: cover;
+   border-radius: 18px;
+ } 
+
+
+ .skillz {
+    background: #343483;
+ }
+
+ .skillz .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+ }
+
+ .skillz .content  .col-right {
+    position: relative;
+    width: 45%;
+ }
+
+.skillz .content  .col-right .bar {
+    margin-bottom:10px ;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
